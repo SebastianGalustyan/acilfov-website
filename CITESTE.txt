@@ -1,12 +1,15 @@
-Apă Ilfov – redesign (site static)
+Apă Ilfov – propunere de redesign (site static)
 
 Pagina de pornire: index.html
-Conținut: 37 de pagini HTML, dc-lite.js (scriptul pentru interactivitate), folderul assets/ (logo).
+Conținut: 37 de pagini HTML, dc-lite.js (interactivitate), folderul assets/ (logo), robots.txt.
+Fiecare pagină are sus banda „Propunere de redesign – nu este site-ul oficial Apă Ilfov”
+și nu apare în Google (noindex + robots.txt).
 
-Publicare rapidă, gratuită:
-1. Netlify: intrați pe https://app.netlify.com/drop, faceți cont gratuit și trageți folderul "site" în pagină.
-   Primiți imediat o adresă de tip https://nume.netlify.app (o puteți redenumi din Site settings).
-2. GitHub Pages: urcați conținutul folderului într-un repository și activați Pages din Settings.
-3. Serverul propriu: copiați toate fișierele în folderul public al serverului (de ex. un subdomeniu nou.acilfov.ro).
+Publicare pe GitHub Pages:
+1. github.com → New repository → nume (ex. acilfov-redesign) → Public → Create repository.
+2. Pe pagina repository-ului: „uploading an existing file” → trageți TOATE fișierele din acest folder
+   (inclusiv folderul assets) → Commit changes.
+3. Settings → Pages → Branch: main, folder: / (root) → Save.
+4. După 1–2 minute, linkul apare în Settings → Pages: https://NUMELE-TAU.github.io/acilfov-redesign/
 
 Linkurile către PDF-uri sunt încă "#" și trebuie completate cu adresele reale.
