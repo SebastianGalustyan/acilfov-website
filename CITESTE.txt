@@ -1,0 +1,12 @@
+Apă Ilfov – redesign (site static)
+
+Pagina de pornire: index.html
+Conținut: 37 de pagini HTML, dc-lite.js (scriptul pentru interactivitate), folderul assets/ (logo).
+
+Publicare rapidă, gratuită:
+1. Netlify: intrați pe https://app.netlify.com/drop, faceți cont gratuit și trageți folderul "site" în pagină.
+   Primiți imediat o adresă de tip https://nume.netlify.app (o puteți redenumi din Site settings).
+2. GitHub Pages: urcați conținutul folderului într-un repository și activați Pages din Settings.
+3. Serverul propriu: copiați toate fișierele în folderul public al serverului (de ex. un subdomeniu nou.acilfov.ro).
+
+Linkurile către PDF-uri sunt încă "#" și trebuie completate cu adresele reale.
